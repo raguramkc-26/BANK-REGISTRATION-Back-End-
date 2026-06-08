@@ -1,5 +1,5 @@
 const ATMApplication =
-require("../models/ATMApplication");
+require("../models/ATMApplications");
 
 const createATM =
 async (req, res) => {
