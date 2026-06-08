@@ -42,7 +42,10 @@ const registerUser = async (req, res) => {
           userType || "user",
       });
 
-    res.status(201).json(user);
+    res.status(201).json({
+  message: "User registered successfully",
+  user,
+});
 
   } catch (error) {
 
